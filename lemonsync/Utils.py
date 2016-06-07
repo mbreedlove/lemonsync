@@ -244,6 +244,8 @@ class Utils ():
 		# rest the remote theme
 		for key in keys:
 			key.delete()
+			print(Fore.RED + '[' + time.strftime("%c") + '] Successfully deleted ' + key.name.replace(path, '') + Style.RESET_ALL)
+
 
 		return
 
